@@ -2,7 +2,7 @@ data:extend({
     {
         type = "storage-tank",
         name = "pipe-meter",
-        icon = "__PipeMeter__/graphics/icon-dial_face.png",
+        icon = "__PipeMeterWLK__/graphics/icon-dial_face.png",
         flags = {"placeable-player", "player-creation"},
         minable = {
             hardness = 0,
@@ -37,7 +37,7 @@ data:extend({
         pictures = {
             picture = {
                 sheet = {
-                    filename = "__PipeMeter__/graphics/entity-pipe_meter.png",
+                    filename = "__PipeMeterWLK__/graphics/entity-pipe_meter.png",
                     priority = "extra-high",
                     frames = 1,
                     width = 40,

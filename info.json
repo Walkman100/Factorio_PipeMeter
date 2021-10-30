@@ -1,8 +1,8 @@
 {
-    "name": "PipeMeter",
+    "name": "PipeMeterWLK",
     "version": "0.0.2",
-    "title": "Pipe Meter",
-    "author": "theBeave",
+    "title": "Pipe Meter (Updated)",
+    "author": "theBeave, Walkman100",
     "description": "Read fluid levels in pipe with circuit network without use of a bulky tank",
     "factorio_version": "0.14",
     "dependencies": ["base >= 0.14.0"]

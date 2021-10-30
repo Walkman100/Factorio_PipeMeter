@@ -2,7 +2,7 @@ data:extend({
     {
         type = "technology",
         name = "pipe-meter",
-        icon = "__PipeMeter__/graphics/tech-pipe_meter.png",
+        icon = "__PipeMeterWLK__/graphics/tech-pipe_meter.png",
         icon_size = 128,
         prerequisites = {"fluid-handling"},
         effects = {
