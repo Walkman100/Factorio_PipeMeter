@@ -48,31 +48,28 @@ data:extend({
                 }
             },
             fluid_background = {
-                filename = "__base__/graphics/entity/storage-tank/fluid-background.png",
-                priority = "extra-high",
+                filename = "__core__/graphics/empty.png",
                 width = 1,
                 height = 1
                 -- width = 32,
                 -- height = 15
             },
             window_background = {
-                filename = "__base__/graphics/entity/storage-tank/window-background.png",
-                priority = "extra-high",
+                filename = "__core__/graphics/empty.png",
                 width = 1,
                 height = 1
                 -- width = 17,
                 -- height = 24
             },
             flow_sprite = {
-                filename = "__base__/graphics/entity/pipe/fluid-flow-low-temperature.png",
-                priority = "extra-high",
+                filename = "__core__/graphics/empty.png",
                 width = 1,
                 height = 1
                 -- width = 160,
                 -- height = 20
             },
             gas_flow = {
-                filename = "__base__/graphics/entity/pipe/steam.png",
+                filename = "__core__/graphics/empty.png",
                 width = 1,
                 height = 1
             }
