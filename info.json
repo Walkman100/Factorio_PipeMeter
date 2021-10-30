@@ -1,0 +1,11 @@
+{
+  "name": "PipeMeter",
+  "version": "0.0.2",
+  "title": "Pipe Meter",
+  "author": "theBeave",
+  "contact": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=7844",
+  "_homepage": "https://forums.factorio.com/memberlist.php?mode=viewprofile&u=7844",
+  "description": "Read fluid levels in pipe with circuit network without use of a bulky tank",
+  "factorio_version": "0.14",
+  "dependencies": ["base >= 0.14.0"]
+}
