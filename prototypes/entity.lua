@@ -6,13 +6,11 @@ data:extend({
         icon_size = 32,
         flags = {"placeable-player", "player-creation"},
         minable = {
-            hardness = 0,
-            mining_time = 2,
+            mining_time = 0.5,
             result = "pipe-meter"
         },
         max_health = 150,
         fast_replaceable_group = "pipe",
-        corpse = "small-remnants",
         collision_box = {
             {-0.29, -0.29},
             {0.29, 0.29}
@@ -22,19 +20,20 @@ data:extend({
             {0.5, 0.5}
         },
         fluid_box = {
-            base_area = 10,
-            pipe_covers = pipecoverspictures(),
+            base_area = 1,
             pipe_connections = {
                 {position = {-1, 0}},
                 {position = {0, 1}},
                 {position = {1, 0}},
                 {position = {0, -1}}
-            }
+            },
+            pipe_covers = pipecoverspictures()
         },
         window_bounding_box = {
             {-0.125, 0.6875},
             {0.1875, 1.1875}
         },
+        corpse = "small-remnants",
         pictures = {
             picture = {
                 sheet = {
@@ -80,16 +79,47 @@ data:extend({
         },
         flow_length_in_ticks = 360,
         vehicle_impact_sound = {
-            filename = "__base__/sound/car-metal-impact.ogg",
-            volume = 0.65
+            {
+                filename = "__base__/sound/car-metal-impact-2.ogg",
+                volume = 0.5
+            },
+            {
+                filename = "__base__/sound/car-metal-impact-3.ogg",
+                volume = 0.5
+            },
+            {
+                filename = "__base__/sound/car-metal-impact-4.ogg",
+                volume = 0.5
+            },
+            {
+                filename = "__base__/sound/car-metal-impact-5.ogg",
+                volume = 0.5
+            },
+            {
+                filename = "__base__/sound/car-metal-impact-6.ogg",
+                volume = 0.5
+            }
         },
         working_sound = {
             sound = {
                 filename = "__base__/sound/storage-tank.ogg",
-                volume = 0.8
+                volume = 0.6
             },
-            apparent_volume = 1.5,
-            max_sounds_per_type = 3
+            audible_distance_modifier = 0.5,
+            match_volume_to_activity = true,
+            max_sounds_per_type = 3,
+        },
+        open_sound = {
+            {
+                filename = "__base__/sound/machine-open.ogg",
+                volume = 0.5
+            }
+        },
+        close_sound = {
+            {
+                filename = "__base__/sound/machine-close.ogg",
+                volume = 0.5
+            }
         },
         circuit_wire_connection_points = {
             {
