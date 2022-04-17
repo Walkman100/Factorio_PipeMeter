@@ -114,7 +114,7 @@ data:extend({
             {0.5, 0.5}
         },
         fluid_box = {
-            base_area = 1,
+            base_area = settings.startup["pipe-meter-precision"].value,
             pipe_connections = {
                 {position = {-1, 0}},
                 {position = {0, 1}},
